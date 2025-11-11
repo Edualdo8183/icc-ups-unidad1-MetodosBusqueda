@@ -40,9 +40,9 @@ public class ShowConsole {
     
     public void showPersonResult(Persona persona, int valorNombre) {
         if (persona != null) {
-            System.out.println("Persona cuyo nombre tiene valor ASCII = " + valorNombre + ": " + persona);
+            System.out.println("Persona con valor 498 = " + valorNombre + ": " + persona);
         } else {
-            System.out.println("No se encontró ninguna persona con valor ASCII = " + valorNombre);
+            System.out.println("No se encontró ninguna persona con valor 498 " + valorNombre);
         }
     }
 }
